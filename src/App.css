@@ -1,0 +1,35 @@
+:root{
+  --primaryColor: "#0B43B1",
+}
+
+/* custom classes */
+.show__sidebar{
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #f2f2f2;
+}
+
+.custom__scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+.custom__scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.custom__scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.custom__scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

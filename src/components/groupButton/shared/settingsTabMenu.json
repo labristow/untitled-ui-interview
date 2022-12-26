@@ -1,0 +1,11 @@
+[
+  { "text": "My details", "name": "myDetails" },
+  { "text": "Profile", "name": "profile" },
+  { "text": "Password", "name": "password" },
+  { "text": "Team", "name": "team" },
+  { "text": "Plan", "name": "plan" },
+  { "text": "Billing", "name": "billing" },
+  { "text": "Notifications", "name": "notifications" },
+  { "text": "Integrations", "name": "integrations" },
+  { "text": "API", "name": "api" }
+]
