@@ -426,12 +426,56 @@ const CheckboxIcon = () => {
   );
 };
 
+const CloseIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="1"
+        y1="-1"
+        x2="11"
+        y2="-1"
+        transform="matrix(-0.707107 0.707107 0.707107 0.707107 17 8.5)"
+        stroke="#B91C1C"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <line
+        x1="8.41421"
+        y1="8.5"
+        x2="15.4853"
+        y2="15.5711"
+        stroke="#B91C1C"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};
+
+const SelectedCheckboxIcon = () => {
+  return (
+    <div className="w-4 h-4 pt-3.5 border relative border-success-700 shadow-sm flex items-center justify-center rounded">
+      <span className="flex absolute top-1">
+        <CheckedIcon />
+      </span>
+    </div>
+  );
+};
+
+
 export const ICON = {
   ArrowdownIcon,
   CheckboxIcon,
   CheckedIcon,
   CheckRadioIcon,
   CheckRadioIcon2,
+  CloseIcon,
   DashboardIcon,
   DownloadIcon,
   EmailIcon,
@@ -441,6 +485,7 @@ export const ICON = {
   ProjectIcon,
   ReportingIcon,
   SearchIcon,
+  SelectedCheckboxIcon,
   SettingIcon,
   SignoutIcon,
   SupportIcon,
